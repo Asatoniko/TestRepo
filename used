@@ -1,1 +1,12 @@
 git switch -c some_main
+git add .
+git status
+git config --local user.email astr@
+git config --local user.name asa
+git commit -m "Very first commit"
+git diff 
+git diff --staged
+git log
+git log --oneline
+git log --oneline --graph --all // or without --all
+
