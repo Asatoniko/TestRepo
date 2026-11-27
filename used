@@ -11,4 +11,15 @@ git log --oneline
 git log --oneline --graph --all // or without --all
 git restore --staged used
 git restore something
-
+git remote add some_origin https://github.com
+git remote -v
+git remote remove some_origin
+ssh -T git@whatever_you_want
+git remote set-url some_origin git@whatever_you_want:some.git
+git push -u some_origin some_main
+git clone ... .
+git config user.name/user.email
+git fetch 
+git log --all 
+git diff cur_branch origin/new_branch
+git merge origin/new_branch
