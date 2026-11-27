@@ -9,4 +9,6 @@ git diff --staged
 git log
 git log --oneline
 git log --oneline --graph --all // or without --all
+git restore --staged used
+git restore something
 
